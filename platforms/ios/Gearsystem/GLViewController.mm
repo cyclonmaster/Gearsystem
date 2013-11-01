@@ -85,10 +85,7 @@
 
 - (void)loadRomWithName: (NSString*) name
 {
-    NSArray* paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString* documentsDirectoryPath = [paths objectAtIndex:0];
-    
-    NSString* path = [NSString stringWithFormat:@"%@/%@", documentsDirectoryPath, name];
+    NSString* path = [NSString stringWithFormat:@"%@/%@", @"/var/mobile/Media/ROMs/Gearsystem", name];
     
     [self.theEmulator loadRomWithPath:path];
     
