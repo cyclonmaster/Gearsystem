@@ -18,7 +18,7 @@ If you want new features ask for them but don't forget donating, thanks :)
 
 Downloads
 --------
-- Gearsystem 1.0 for Jailbroken iOS: Cydia. You can open rom files from other apps like Safari or Dropbox.
+- Gearsystem 1.0 for Jailbroken iOS: [Cydia](http://modmyi.com/info/gearsystem.d.php). You can open rom files from other apps like Safari or Dropbox.
 - Gearsystem 1.0 for Non-Jailbroken iOS: Use your developer certificate to compile and install it, then you can open rom files from other apps or use [iTunes file sharing](http://support.apple.com/kb/ht4094). 
 - Gearsystem 1.0 for Windows: [Gearsystem-1.0-Windows.zip](http://www.geardome.com/files/gearsystem/Gearsystem-1.0-Windows.zip)
 - Gearsystem 1.0 for Linux: [Gearsystem-1.0-Linux.tar.gz](http://www.geardome.com/files/gearsystem/Gearsystem-1.0-Linux.tar.gz)
@@ -86,7 +86,7 @@ Accuracy Tests
 
 Zexall Z80 instruction exerciser ([from SMS Power!](http://www.smspower.org/Homebrew/ZEXALL-SMS))
 
-Gearsystem passes all tests in Zexdoc. It passes all tests in Zexall except for BIT n,(HL) due to the undocumented behaviour of the XY flags on this instructions.
+Gearsystem passes all tests in Zexdoc. It passes all tests in Zexall except for BIT n,(HL) due to the undocumented behaviour of the XY flags on these instructions.
 
 ![zexall.sms](http://www.geardome.com/files/gearsystem/zexall.png)
 
